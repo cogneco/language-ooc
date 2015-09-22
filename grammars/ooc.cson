@@ -445,7 +445,7 @@
         'name': 'constant.numeric.float.ooc'
       }
       {
-        'match': '(?x)\\b([0-9]+)(?: [eE][+\\-]?\\d+)?'
+        'match': '(?x)\\b(([0-9]+_?[0-9]+)+)(?: [eE][+\\-]?\\d+)?'
         'name': 'constant.numeric.integer.ooc'
       }
     ]
